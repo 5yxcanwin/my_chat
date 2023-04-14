@@ -10,7 +10,8 @@
 - 具备管理员权限的企业微信账号
 ## 3.服务器环境
 - jdk1.8
-- nginx(本人使用6060端口运行项目，需要nginx监听80，将请求转发到 http://localhost:6060，修改nginx配置文件如图所示：![img](imgs/Nginx.png)
+- nginx(本人使用6060端口运行项目，需要nginx监听80，将请求转发到 http://localhost:6060，修改nginx配置文件如图所示：
+ ![img](imgs/nginx.png)
 ## 4.企业微信
 
 ### 4.1 企业微信配置
@@ -196,7 +197,9 @@
 - 点击权限管理,添加以下四个权限 ![img](imgs/FeiShuQuanXian.png)
 - 点击事件订阅-->配置请求地址 飞书会向该请求地址发送POST请求验证Url(和企业微信的一个GET请求一个POST请求不同，所以在配置飞书地址时，需要先把FsGPTController中的另外一个POST注释掉) ![img](imgs/FsDingYue.png)
 
-- 添加一下两个事件 ![img](imgs/FsShiJian.png)
+- 添加一下两个事件
+    
+![img](imgs/FsShiJian.png)
 
 - 版本管理与发布-->创建版本-->申请线上发布
 
