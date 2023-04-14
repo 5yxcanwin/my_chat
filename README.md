@@ -194,7 +194,7 @@
 - 点击创建应用 ![img](imgs/FSCreate.png)
 - 添加应用能力-->添加机器人 ![img](imgs/FeiShuJiQi.png)
 - 点击权限管理,添加以下四个权限 ![img](imgs/FeiShuQuanXian.png)
-- 点击事件订阅-->配置请求地址 飞书会向该请求地址发送POST请求验证Url(和企业微信的一个GET请求一个POST请求不同，所以在配置飞书地址时，需要先把FsGPTController中的另外一个POST注释掉) ![img](imgs/FSDingYue.png)
+- 点击事件订阅-->配置请求地址 飞书会向该请求地址发送POST请求验证Url(和企业微信的一个GET请求一个POST请求不同，所以在配置飞书地址时，需要先把FsGPTController中的另外一个POST注释掉) ![img](imgs/FsDingYue.png)
 
 - 添加一下两个事件 ![img](imgs/FsShiJian.png)
 
