@@ -10,7 +10,7 @@
 - 具备管理员权限的企业微信账号
 ## 3.服务器环境
 - jdk1.8
-- nginx(本人使用6060端口运行项目，需要nginx监听80，将请求转发到 http://localhost:6060，修改nginx配置文件如图所示：
+- nginx(本人使用6060端口运行项目，需要nginx监听80，将请求转发到 localhost:6060 并修改nginx配置文件如图所示：
  ![img](imgs/nginx.png)
 ## 4.企业微信
 
