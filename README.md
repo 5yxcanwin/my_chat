@@ -1,5 +1,5 @@
 # ChatGPT接入企业微信、飞书
-## 1.效果预览
+## 1.效果预览(图片打不开请科学上网)
 - 企业微信 ![img](imgs/WxChatGPT.png)
 - 飞书 ![img](imgs/FeiShuGPT.png)
 ## 2.准备工作
