@@ -41,7 +41,7 @@ public class FsGPTController {
         FsMsgcrypt decrypt = new FsMsgcrypt(BaseConstants.FsEncryptKey);
         String result = decrypt.decrypt(encrypt);
         JSONObject jsonObject = JSON.parseObject(result);
-
+        // 123
         //验证token
         String token = jsonObject.getString("token");
         if (!BaseConstants.FsVerificationToken.equals(token)) {
